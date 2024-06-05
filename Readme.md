@@ -39,15 +39,21 @@
     /D365Crm
     |-- /src
     |   |-- /controllers
-    |   |   |-- resumeRoutes.ts
+    |   |   |-- accountController.ts
+    |   |   |-- contactController.ts
+    |   |   |-- leadController.ts
     |   |-- /interfaces
-    |   |   |-- analysisResult.ts
+    |   |   |-- accountInterface.ts
+    |   |   |-- contactInterface.ts
+    |   |   |-- leadInterface.ts
     |   |-- /models
-    |   |   |-- analysisResult.ts
+    |   |   |-- d365Model.ts
     |   |-- /routes
-    |   |   |-- analysisResult.ts
+    |   |   |-- accountRoutes.ts
+    |   |   |-- contactRoutes.ts
+    |   |   |-- leadRoutes.ts
     |   |-- /services
-    |   |   |-- analysisResult.ts
+    |   |   |-- AuthService.ts
     |   |-- index.ts
     |-- .env-sample
     |-- .eslintrc
